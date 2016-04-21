@@ -135,7 +135,7 @@ class LinkScrape:
                                 'link': link,
                                 'description': description
                             }
-                            print 'Found marketeer: {name}'.format(name=name)
+                            print 'Found person: {name}'.format(name=name)
                 except Exception as e:
                     print e
             # Get the URL of the next search page, if it exists
