@@ -152,6 +152,9 @@ class LinkScrape:
         '''
             Given company linkedin URL, get company & employee details
             Iterates thorugh RESULTS and adds new info.
+
+            Args:
+                (dict) linkedin_urls: Company names mapped to linkedin urls
         '''
         try:
             failed_companies = self.load_failed_companies()
