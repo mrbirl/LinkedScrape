@@ -11,6 +11,11 @@ LinkedIn's signin page seems to change a lot, so you'll likely have to the login
 email_field = self.sess.at_css('#login-email')
 password_field = self.sess.at_css('#login-password')
 ```
+and this
+
+```python
+signin = soup.find("input", {"value": "Sign in"})
+```
 
 in particular.
 
