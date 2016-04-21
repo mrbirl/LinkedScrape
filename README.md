@@ -25,7 +25,7 @@ Run with:
 
 ```shell
 python dryscrape_linkedin.py linkedin_email linkedin_password
-'''
+```
 
 To load previous results and continue from there (to avoid finding the same people and companies again):
 
