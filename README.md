@@ -7,10 +7,10 @@ python dryscrape_linkedin.py linkedin_email linkedin_password
 
 LinkedIn's signin page seems to change a lot, so you'll likely have to the login() in dryscrape.py if signin isn't working. Usually requires looking at these two lines:
 
-'''python
+```python
 email_field = self.sess.at_css('#login-email')
 password_field = self.sess.at_css('#login-password')
-'''
+```
 
 in particular.
 
