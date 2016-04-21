@@ -37,7 +37,7 @@ where <i>linkedin_email</i> is the email address you use to sign in to LinkedIn,
 
 
 ## Login Issues
-LinkedIn's signin page seems to change a lot, so you'll likely have to the login() in dryscrape.py if signin isn't working. Usually requires looking at these two lines:
+LinkedIn's signin page seems to change a lot, so you'll likely have to change the login() in dryscrape.py if signin isn't working. Usually requires looking at these two lines:
 
 ```python
 email_field = self.sess.at_css('#login-email')
